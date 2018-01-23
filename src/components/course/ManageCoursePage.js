@@ -12,7 +12,7 @@ class ManageCoursePage extends React.Component {
       errors: {}
     };
   }
-
+ 
   render() {
     return (
       <CourseForm
