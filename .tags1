@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+constructor	C:\Users\Administrator\Desktop\react-redux\src\components\course\ManageCoursePage.js	/^  constructor(props, context) {$/;"	function	line:8
+state.course	C:\Users\Administrator\Desktop\react-redux\src\components\course\ManageCoursePage.js	/^      course: Object.assign({}, props.course),$/;"	property	line:11
+render	C:\Users\Administrator\Desktop\react-redux\src\components\course\ManageCoursePage.js	/^  render() {$/;"	function	line:16
+ManageCoursePage.propTypes.course	C:\Users\Administrator\Desktop\react-redux\src\components\course\ManageCoursePage.js	/^  course: PropTypes.object.isRequired$/;"	property	line:28
+mapStateToProps	C:\Users\Administrator\Desktop\react-redux\src\components\course\ManageCoursePage.js	/^function mapStateToProps(state, ownProps) {$/;"	function	line:32
+let.id	C:\Users\Administrator\Desktop\react-redux\src\components\course\ManageCoursePage.js	/^  let course = {id: '', watchHref: '', title: '', authorId: '', length: '', category: ''};$/;"	property	line:33
+let.watchHref	C:\Users\Administrator\Desktop\react-redux\src\components\course\ManageCoursePage.js	/^  let course = {id: '', watchHref: '', title: '', authorId: '', length: '', category: ''};$/;"	property	line:33
+let.title	C:\Users\Administrator\Desktop\react-redux\src\components\course\ManageCoursePage.js	/^  let course = {id: '', watchHref: '', title: '', authorId: '', length: '', category: ''};$/;"	property	line:33
+let.authorId	C:\Users\Administrator\Desktop\react-redux\src\components\course\ManageCoursePage.js	/^  let course = {id: '', watchHref: '', title: '', authorId: '', length: '', category: ''};$/;"	property	line:33
+let.length	C:\Users\Administrator\Desktop\react-redux\src\components\course\ManageCoursePage.js	/^  let course = {id: '', watchHref: '', title: '', authorId: '', length: '', category: ''};$/;"	property	line:33
+let.category	C:\Users\Administrator\Desktop\react-redux\src\components\course\ManageCoursePage.js	/^  let course = {id: '', watchHref: '', title: '', authorId: '', length: '', category: ''};$/;"	property	line:33
+mapStateToProps	C:\Users\Administrator\Desktop\react-redux\src\components\course\ManageCoursePage.js	/^function mapStateToProps(state, ownProps) {$/;"	function	line:32
+mapDispatchToProps	C:\Users\Administrator\Desktop\react-redux\src\components\course\ManageCoursePage.js	/^function mapDispatchToProps(dispatch) {$/;"	function	line:39
+mapDispatchToProps	C:\Users\Administrator\Desktop\react-redux\src\components\course\ManageCoursePage.js	/^function mapDispatchToProps(dispatch) {$/;"	function	line:39
