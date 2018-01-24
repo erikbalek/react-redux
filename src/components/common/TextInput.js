@@ -12,6 +12,7 @@ const TextInput = ({name, label, onChange, placeholder, value, error}) => {
         <input
           type="text"
           name={name}
+          value={value}
           className="form-control"
           placeholder={placeholder}
           onChange={onChange}
@@ -21,7 +22,7 @@ const TextInput = ({name, label, onChange, placeholder, value, error}) => {
     </div>
   );
 };
- 
+
 TextInput.propTypes = {
   name: PropTypes.string.isRequired,
   label: PropTypes.string.isRequired,

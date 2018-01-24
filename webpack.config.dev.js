@@ -19,6 +19,9 @@ export default {
   devServer: {
     contentBase: path.resolve(__dirname, 'src')
   },
+  resolve: {
+    unsafeCache: true //was superslow without it?
+  },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin()

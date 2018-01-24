@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import TextInput from '../common/TextInput';
 import SelectInput from '../common/SelectInput';
 
-const CourseForm = ({course, allAuthors, onChange, onSave, loading, errors}) => {
+const CourseForm = ({course, allAuthors, onChange, onSave, saving, errors}) => {
   return (
     <form>
       <h1>Manage course</h1>
@@ -36,6 +36,13 @@ const CourseForm = ({course, allAuthors, onChange, onSave, loading, errors}) => 
         onChange={onChange}
         error={errors.length}
       />
+      <input
+        type="submit"
+        value={saving ? "saving..." : "Save"}
+        disabled={saving}
+        onClick={onSave}
+        className="btn btn-primary"
+      />
     </form>
   );
 };
@@ -44,7 +51,7 @@ CourseForm.propTypes = {
   allAuthors: PropTypes.array,
   onSave: PropTypes.func.isRequired,
   onChange: PropTypes.func.isRequired,
-  loading: PropTypes.bool,
+  saving: PropTypes.bool,
   errors: PropTypes.object
 };
 
